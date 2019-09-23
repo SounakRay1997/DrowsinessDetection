@@ -5,6 +5,6 @@ This project is designed to perform real time drowsiness detection of drivers. M
 
 # How to use the code
 
-python detect_drowsiness.py --shape-predictor shape_predictor_68_face_landmarks.dat --eye_alarm eye_closing_alarm.mp3 --mouth_alarm mouth_closing_alarm.mp3
+```python detect_drowsiness.py --shape-predictor shape_predictor_68_face_landmarks.dat --eye_alarm eye_closing_alarm.mp3 --mouth_alarm mouth_closing_alarm.mp3```
 
 The shape_predictor_68_face_landmarks.dat file is a trained file to detect the facial landmarks in a frame. It is available [here](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat). 
